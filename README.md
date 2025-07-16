@@ -10,17 +10,17 @@
 - 使用 NumPy 套件進行對 R、G、B 三通道做 SVD 分解
 - 使用前 k 個奇異值來重建圖像（壓縮效果）
 - 顯示原圖與壓縮後圖像的比較
-- 使用 OpenCV `cv2.imshow()` 及 `cv2.imwrite()` 顯示與儲存結果
+- 使用 OpenCV cv2.imshow() 及 cv2.imwrite() 顯示與儲存結果
 
 ---
 
 ## 執行環境
 
 - Python 3.x
-- OpenCV (`cv2`)
+- OpenCV (cv2)
 - NumPy
 
-### ✅ 安裝方式（建議使用虛擬環境）
+### 安裝方式（建議使用虛擬環境）
 
 ```bash
 pip install numpy opencv-python
