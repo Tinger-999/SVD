@@ -6,10 +6,10 @@
 
 ## 專案功能說明
 
-- 讀取圖像檔（JPEG / PNG）
+- [讀取圖像檔（JPEG / PNG)](./judagemeisi.jpg)
 - 使用 NumPy 套件進行對 R、G、B 三通道做 SVD 分解
 - 使用前 k 個奇異值來重建圖像（壓縮效果）
-- 顯示原圖與壓縮後圖像的比較
+- 顯示不同k值壓縮後圖像的比較
 - 使用 OpenCV cv2.imshow() 及 cv2.imwrite() 顯示與儲存結果
 
 ---
